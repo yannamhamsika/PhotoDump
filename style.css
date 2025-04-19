@@ -1,0 +1,55 @@
+/* Hide Streamlit default menu and footer */
+#MainMenu, footer {
+    visibility: hidden;
+}
+
+/* Add custom font and background */
+body {
+    background-color: #fdf6f0;
+    font-family: 'Georgia', serif;
+    color: #4b2e2e;
+}
+
+/* Centered titles */
+h1, h2, h3 {
+    text-align: center;
+    color: #b85c38;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #e2b4a8;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .stButton > button:hover {
+        background-color: #b85c38;
+        color: #fff0f5;
+    }
+
+/* Upload box style */
+.stFileUploader {
+    background-color: #fff0f5;
+    border: 2px dashed #b85c38;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Sidebar styling */
+.css-1d391kg { /* This class may vary, can inspect via browser dev tools */
+    background-color: #fdeee8;
+}
+
+/* Compliment box */
+.compliment-box {
+    background-color: #fff0f5;
+    padding: 10px;
+    border-radius: 12px;
+    font-style: italic;
+    border: 1px solid #b85c38;
+}
